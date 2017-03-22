@@ -55,7 +55,7 @@ export const Code = (props) => (
 )
 
 export const Note = (props) => (
-  <div className="Note">{props.children}</div>
+  <div>{props.children}</div>
 )
 
 const PrivateNotes = (props) => {
