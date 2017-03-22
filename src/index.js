@@ -1,5 +1,5 @@
 import React from 'react';
-import { Render, Router, Route, IndexRoute } from 'jumpsuit'
+import { Render, Router, Route, IndexRoute, HistoryMode } from 'jumpsuit'
 import App from './App';
 import {
   SlideShowState,
@@ -91,8 +91,7 @@ class Foo extends React.Component {
   </SlideShow>
 )
 
-Render(
-  {slideshow: SlideShowState},
+const routes = (
   <Router>
     <Route path="/">
       <IndexRoute component={MallorcaJS}/>
@@ -100,6 +99,12 @@ Render(
     <Route path="/demo">
       <IndexRoute component={App}/>
     </Route>
-  </Router>,
-  {useHash: true}
+  </Router>
+)
+
+HistoryMode('hash')
+
+Render(
+  {slideshow: SlideShowState},
+  routes
 );
