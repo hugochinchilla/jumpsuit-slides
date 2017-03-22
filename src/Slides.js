@@ -57,6 +57,7 @@ export const Code = (props) => (
 export const Note = (props) => (
   <div>{props.children}</div>
 )
+Note._componentName = "Note"
 
 const PrivateNotes = (props) => {
   const {index, content, slide} = props
@@ -81,7 +82,7 @@ const getChildren = (component) => {
 }
 
 const isNote = (component) => {
-  return component.type.name === "Note"
+  return component.type._componentName === "Note"
 }
 
 export const SlideShow = Component({
