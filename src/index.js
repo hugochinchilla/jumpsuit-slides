@@ -100,5 +100,6 @@ Render(
     <Route path="/demo">
       <IndexRoute component={App}/>
     </Route>
-  </Router>
+  </Router>,
+  {useHash: true}
 );
