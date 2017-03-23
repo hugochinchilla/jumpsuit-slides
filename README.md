@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## Jumpsuit Demo
+## Jumpsuit Demo ([View it here](https://hugochinchilla.github.io/jumpsuit-slides/))
 
 This is a demo code prepared for the [MallorcaJS Meetup](https://www.meetup.com/es-ES/MallorcaJS/)
 
