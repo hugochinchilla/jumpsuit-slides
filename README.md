@@ -8,9 +8,9 @@ Instead of preparing a few slides to explain [Jumpsuit](https://jumpsuit.js.org/
 
 ## Key Bindings
 
- * **RightArrow, Space** next slide
- * **LeftArrow** previous slide
- * **a** show speaker window (including private notes)
+ * <kbd>RightArrow</kbd>, <kbd>Space</kbd> next slide
+ * <kbd>LeftArrow</kbd> previous slide
+ * <kbd>a</kbd> show speaker window (including private notes)
 
 ## Available Scripts
 
