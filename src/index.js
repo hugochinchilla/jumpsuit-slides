@@ -28,7 +28,7 @@ class Foo extends React.Component {
     return (
       <div>
         <button onClick={() => this.toggle()}>Toggle</button>
-        {this.state.visible ? "You see mee" : "You dont"}
+        {this.state.visible ? "You see me" : "You don't"}
       </div>
     )
   }
@@ -66,7 +66,7 @@ class Foo extends React.Component {
     return (
       <div>
         <button onClick={this.toggle}>Toggle</button>
-        {this.state.visible ? "You see mee" : "You dont"}
+        {this.state.visible ? "You see me" : "You don't"}
       </div>
     )
   }
